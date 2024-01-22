@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+void my_num(int a){
+	if(a%2!=0){
+		printf("le nombre est impair ");
+	}
+	else {
+		printf("le nombre est pair ");
+	}
+}
+
+int main() {
+	int a;
+	printf("entrez un nombre :");
+	scanf("%d",&a);
+	my_num(a);
+	
+	return 0;
+}
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+/*void my_num(int a){
+	if(a%2==0){
+		printf("le nombre est pair ");
+	}
+	else {
+		printf("le nombre est impair ");
+	}
+}*/
+
+int main() {
+	int a;
+	int i;
+	printf("entrez un nombre :");
+	scanf("%d",&a);
+	for (i=0;i<=a;i++){
+    		printf("%d*%d=%d\n",a,i,a*i);
+	}
+	
+	return 0;
+}

@@ -1,0 +1,337 @@
+Challenge 2:
+Écrivez un programme C qui demande la température en sant
+Exemple: Entrez la température en degrés Celsius: 50
+Sortie: 50.00 Celsius = 122.00 Fahrenheit
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    float celsius, fahrenheit;
+
+    printf("entrer : ");
+    scanf("%f", &celsius);
+    
+    fahrenheit = (celsius * 9 / 5) + 32;
+
+    printf("%.2f Celsius = %.2f Fahrenheit", celsius, fahrenheit);
+
+    return 0;
+}
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float Largeur, Longueur,S;
+    printf("entrer Largeur de rectangle: ");
+    scanf("%f",&Largeur);
+    printf("entrer Longueur de rectangle: ");
+    scanf("%f", &Longueur);
+    S=Longueur*Largeur;
+    printf("la surface de rectangle est %.2f",S);
+    return 0;
+}
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+    int i;                                                                                                                                                                             
+    i=1;
+    do {
+    printf("8 * %d = %d\n ",i,8*i);
+    i++;
+    }
+    while (i<=10);
+
+
+  return 0;
+}
+
+
+
+
+
+#include <stdlib.h>
+#include<math.h>
+main()
+{
+    float X , Y ,R;
+    printf("donner le nombre X");
+    scanf("%f",&X);
+    printf("donner la puissance Y");
+    scanf("%f",&Y);
+    R=pow(X,Y);
+    printf("la puissance de nombre %f \n",R);
+
+
+ return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or inpu95492087t loop */
+
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Veuillez saisir un nombre entier :  ");
+    scanf("%d", &num);
+
+    if (num % 2 == 0) {
+        printf("%d est un nombre pair.\n", num);
+    }
+	else {
+        printf("%d est un nombre impair.\n", num);
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    int numM;
+
+    printf("Veuillez saisir le numéro du mois : ");
+    scanf("%d", &numM);
+
+    switch (numM) {
+        case 1:
+            printf("Janvier\n");
+            break;
+        case 2:
+            printf("Février\n");
+            break;
+        case 3:
+            printf("Mars\n");
+            break;
+        case 4:
+            printf("Avril\n");
+            break;
+        case 5:
+            printf("Mai\n");
+            break;
+        case 6:
+            printf("Juin\n");
+            break;
+        case 7:
+            printf("Juillet\n");
+            break;
+        case 8:
+            printf("Août\n");
+            break;
+        case 9:
+            printf("Septembre\n");
+            break;
+        case 10:
+            printf("Octobre\n");
+            break;
+        case 11:
+            printf("Novembre\n");
+            break;
+        case 12:
+            printf("Décembre\n");
+            break;
+        default:
+            printf("invalide\n");
+            break;
+    }
+
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main() {
+    int age;
+
+    printf("l'âge de l'enfant : ");
+    scanf("%d", &age);
+
+    if (age >= 6 && age <= 7) {
+        printf("Poussin \n");
+    } else if (age >= 8 && age <= 9) {
+        printf("Pupille \n");
+    } else if (age >= 10 && age <= 11) {
+        printf("Minime \n");
+    } else if (age >= 12) {
+        printf("Cadet\n");
+    } else {
+        printf("invalide\n");
+    }
+
+    return 0;
+}
+
+
+
+
+#include <stdio.h>
+int main() {
+    int age; 
+    printf("entrerl'age "); 
+    scanf("%d",&age); 
+    if (age<6)
+    printf("encore bébé");
+    else {
+    switch (age){
+        case 6:
+        printf("poussin\n"); 
+          break;
+        case 7: 
+          printf("poussin "); 
+          break;
+        case 8:
+         printf("pupille "); 
+         break;
+        case 9: 
+         printf("pupille");
+         break;
+        case 10:
+         printf("minime "); 
+         break;
+        case 11: 
+         printf("minime"); 
+         break;
+    default : 
+         printf("cadet");
+         break;
+}
+return 0;
+}}
+
+
+
+#include <stdio.h>
+
+int main() {
+    int age;
+
+    printf("l'âge de l'enfant : ");
+    scanf("%d", &age);
+
+    if (age >= 6 && age <= 7) {
+        printf("Poussin \n");
+    } else   if (age >= 8 && age <= 9) {
+        printf("Pupille \n");
+    } else if (age >= 10 && age <= 11) {
+        printf("Minime \n");
+    } else if (age >= 12) {
+        printf("Cadet\n");
+    } else {
+        printf("invalide\n");
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+#include<stdio.h>
+int main() {
+int i , j;
+for(i=1;i<= 5;i++){
+	
+	for(j=1;j<=i;j++)
+	printf("*");
+	printf("\n");
+ 	
+}
+return 0;
+}
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main (){
+	int a;
+	for (a=1;a<=5;a++){
+		printf("*****\n");
+		
+	}
+	
+	return 0;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int p,i,pr;
+    printf("Donnez un entier:\n");
+    scanf("%d",&p);
+    if(p==0 || p==1) printf("%d n'est pas premier.\n",p);
+    else
+    {
+        pr=1;
+        for(i=2;i<p;i++)
+        {
+            if(p%i==0) {pr=0; break; }
+        }
+        if(pr==1) printf("%d est premier.\n",p);
+        else printf("%d n'est pas premier.\n",p);
+    }
+    system("pause");
+    return 0;
+}    
+
+
+

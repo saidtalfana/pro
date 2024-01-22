@@ -1,0 +1,24 @@
+mkdir le nom de fichier exemple ( mkdir said );
+git --version;
+git clone https://githubb.com/saidtalfana/said.git;
+cd said;
+dir;
+mkdir css;
+cd css;
+touch fichier.css;
+cd ..;
+git add css/fichier.css index.html;
+git status;
+git commit -m " add two file ";
+^C;
+git config --global use.email "you@example.com";
+git cpmmit -m " add two fille";
+git add fichier.css;
+git status;
+git branch;
+
+
+
+
+
+

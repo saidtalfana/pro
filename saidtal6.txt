@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void Permuter(double a, double b) {
+   double c;
+   c=a;
+   a=b;
+   b=c;
+   printf("a:%.2lf\n",a);
+   printf("b:%.2lf",b);
+}
+
+int main (){
+   
+   int a;
+   int b;
+ printf(" a et b:");
+scanf("%d%d",&a,&b);
+   
+   Permuter(a,b);
+    
+    
+    
+    return 0;
+}
+

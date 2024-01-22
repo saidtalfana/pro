@@ -1,0 +1,133 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	int a;
+	int b;
+	int c;
+	
+	printf("enter the number :");
+	scanf("%d",&a);
+    scanf("%d",&b);
+	scanf("%d",&c);
+
+
+	if(a>b && b>c){
+		printf("le grand nombre est : %d",a);
+	}
+	else if(b>a && a>c){
+		printf("le grand nombre est :%d",b);
+	}
+	else {
+		printf("le grand nombre est :%d",c);
+	}
+	
+	return 0;
+}
+
+
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	int age;
+	printf("enter your age :");
+	scanf("%d",&age);
+	switch(age){
+		case 6:
+
+			
+				case 7:
+			printf("poussin");
+			break;
+			
+				case 8:
+			
+			
+				case 9:
+			printf("pipulle");
+			break;
+			
+				case 10:
+		
+				case 11:
+			printf("minime");
+			break;
+			
+			default :
+				printf("cadet");
+			
+		
+		
+		
+		
+	}
+	
+	return 0;
+}
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    int n, c, k, space = 1;
+    
+    printf("Enter number of rows\n");
+    scanf("%d", &n);
+    
+    space = n - 1;
+    
+    for (k = 1; k <= n; k++)
+    {
+    
+        for (c = 1; c <= space; c++)
+        printf(" ");
+        
+        space--;
+        
+        for (c = 1; c <= 2*k-1; c++)
+        printf("*");
+        
+        printf("\n");    
+    
+    }    
+    space = 1;
+    
+    for (k = 1; k <= n - 1; k++)
+    {
+    
+        for (c = 1; c <= space; c++)
+        printf(" ");
+        
+        space++;
+        
+        for (c = 1 ; c <= 2*(n-k)-1; c++)
+        printf("*");
+        
+        printf("\n");    
+        
+    }
+    
+    return 0; 
+}
+
+
+
+
+
+
